@@ -3,14 +3,28 @@ Performing probabilistic topic modeling to analyze a collection of busines
 
 The news articles were collected from a news website during 2015-2016 and include business/finance news on vaarious markets around the globe.
 
+See the full tour here: 
+
+
 Data variables:
 
-Document ID: each document corresponds to a news article
+- Document ID: each document corresponds to a news article
 
-text: full text content of the news article
+- text: full text content of the news article
 
-date: date of the article
+- date: date of the article
 
-heading: title of the article
+- heading: title of the article
 
-R packages needed
+
+R packages needed:
+
+- "tm"
+
+- "SnowballC"
+
+- "topicmodels"
+
+- "wordcloud"
+
+
